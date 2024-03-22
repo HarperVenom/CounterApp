@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Counter App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="counter f-default">
+      <button
+        class="counter-reset button f-default btn-w btn-h"
+        id="reset-button"
+      >
+        Reset
+      </button>
+      <div class="counter-screen btn-w">
+        <div class="counter-screen-value" id="screen-value"></div>
+      </div>
+      <div class="counter-result btn-w" id="result-field">Saved:</div>
+      <div class="counter-signs btn-w btn-h">
+        <button
+          class="counter-signs-minus button f-default btn-w2 btn-h"
+          id="minus-button"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-6 h-6"
+          >
+            <path stroke-linecap="round" stroke-linejoin="round" d="M5 12h14" />
+          </svg>
+        </button>
+        <button
+          class="counter-signs-plus button f-default btn-w2 btn-h"
+          id="plus-button"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-6 h-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M12 4.5v15m7.5-7.5h-15"
+            />
+          </svg>
+        </button>
+      </div>
+      <button
+        class="counter-save button f-default btn-w btn-h"
+        id="save-button"
+      >
+        Save
+      </button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

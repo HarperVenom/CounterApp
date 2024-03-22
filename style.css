@@ -1,0 +1,124 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  height: 100vh;
+  overflow: auto;
+  transition: background-color 0.2s ease;
+}
+
+.f-default {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+
+  color: rgba(35, 35, 35, 0.8);
+}
+
+.btn-w {
+  width: 100%;
+  max-width: 300px;
+  margin: 0.3rem;
+}
+.btn-w2 {
+  width: 100%;
+}
+.btn-h {
+  min-height: 50px;
+}
+
+.button {
+  border: none;
+  cursor: pointer;
+  box-sizing: border-box;
+  border-radius: 10px;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+  padding: 0.5rem;
+
+  background-color: #f0f0f0;
+}
+.button:hover {
+  background-color: rgba(220, 220, 220, 0.8);
+}
+.button:active {
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+  scale: 0.98;
+}
+
+.counter {
+  box-sizing: border-box;
+  height: 100%;
+  padding: 1rem;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.counter-reset {
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
+.counter-screen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+  margin-bottom: 0.8rem;
+}
+.counter-screen-value {
+  min-height: 90px;
+  line-height: 90%;
+  font-size: 100px;
+
+  color: #373833;
+}
+
+.counter-result {
+  font-size: 20px;
+  min-height: 1.5em;
+  max-height: 2.3em;
+  overflow: auto;
+  padding: 0.2em;
+  color: #72732f;
+  background-color: #fafbbe;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 3px #8e8f39 inset;
+}
+
+.counter-signs {
+  display: flex;
+  height: 70px;
+}
+.counter-signs svg {
+  width: 30%;
+}
+.counter-signs-minus {
+  margin-right: 0.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #df9f9f;
+}
+.counter-signs-minus:hover {
+  background-color: #b87070;
+}
+.counter-signs-plus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #afdeb3;
+}
+.counter-signs-plus:hover {
+  background-color: #82be82;
+}
+
+.counter-save {
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
